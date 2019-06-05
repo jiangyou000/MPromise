@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "promises-aplus-tests ./MPromise.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/xixihuhuhaha/MPromise/issues"
   },
-  "homepage": "https://github.com/xixihuhuhaha/MPromise#readme"
+  "homepage": "https://github.com/xixihuhuhaha/MPromise#readme",
+  "dependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
 }
